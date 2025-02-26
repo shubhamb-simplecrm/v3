@@ -1,0 +1,128 @@
+.toast-message {
+  word-wrap: break-word;
+  background: lightblue;
+  padding: 10px;
+  width: 500px;
+}
+
+.queryBuilder {
+  overflow: auto;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.ruleGroup {
+  row-gap: 1rem;
+  border: 1px solid lightgrey !important;
+  box-shadow: inset 2px 2px 6px 0 rgba(144, 163, 174, 0.4);
+  background-color: rgb(204,219,241, 0.5);
+  background: rgb(204,219,241);
+  padding: 20px !important;
+  /* width: auto; */
+  min-width: 550px;
+  max-width: 2000px;
+  /* width: 700px; */
+}
+
+.rule-fields {
+  padding: 9px !important;
+  max-width: 200px;
+  border: 2px solid white !important;
+  background-color: transparent;
+  border-radius: 5px;
+}
+.ruleGroup .rule{
+  flex-wrap: wrap;
+  overflow: auto;
+  overflow: auto;
+  column-gap: 0.75rem;
+  padding: 3px !important;
+}
+rule:hover{
+  overflow: hidden;
+}
+
+.ruleGroup-combinators:first-child {
+  display: none;
+}
+
+/* .queryBuilder{
+  color:red,
+}
+.rule.queryBuilder{
+  background:blue
+} */
+.ruleGroup-combinators {
+  border: 2px solid white !important;
+  padding: 8px 12px !important;
+  background-color: rgb(237,242,247);
+  border-radius: 5px;
+}
+
+.ruleGroup-addRule {
+  border: 2px solid white !important;
+  padding: 8px 12px !important;
+  background-color: rgb(237,242,247);
+  border-radius: 5px;
+}
+
+.ruleGroup-addGroup {
+  border: 2px solid white !important;
+  padding: 8px 12px !important;
+  background-color: rgb(237,242,247);
+  border-radius: 5px;
+}
+
+.ruleGroup-remove {
+  border: 2px solid white !important;
+  padding: 7.5px 12px !important;
+  background-color: rgb(237,242,247);
+  border-radius: 5px;
+}
+
+.rule-remove {
+  border: 2px solid white !important;
+  padding: 8px 13px !important;
+  background-color: rgb(237,242,247);
+  border-radius: 5px;
+}
+
+.rule-operators {
+  border: 2px solid white !important;
+  padding: 9px !important;
+  background-color: transparent;
+  border-radius: 5px;
+}
+
+.rule-value {
+  border: 2px solid white !important;
+  background-color: transparent;
+  border-radius: 5px;
+  padding: 9.5px !important;
+
+  /* background: transparent ; */
+  /* background:rgb(220, 220, 228);  */
+}
+
+
+
+@keyframes inAnimation {
+  0% {
+    opacity: 0;
+    visibility: hidden;
+  }
+  100% {
+    opacity: 1;
+    visibility: visible;
+  }
+}
+
+@keyframes outAnimation {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+    visibility: hidden;
+  }
+}
