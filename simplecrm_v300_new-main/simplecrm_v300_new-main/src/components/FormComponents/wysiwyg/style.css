@@ -1,8 +1,0 @@
-.rdw-link-modal, .rdw-colorpicker-modal,  .rdw-emoji-modal, .rdw-image-modal{
-    z-index: 10000 !important;
-}
-.rdw-embedded-modal{
-    z-index: 10000 !important;  
-    left:unset !important;
-    right:0
-}
