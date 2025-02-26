@@ -1,0 +1,26 @@
+.MUIDataTableSelectCell-expanded {
+    transform: rotate(-90deg) !important;
+}
+
+@media screen and (max-width: 995.95px) {
+    td.name-td {
+        display: block !important;
+        position: absolute;
+        border-bottom: none;
+        top: 4px;
+        left: 1%;
+        z-Index: 999;
+        width: 80% !important;
+        padding: 2px 10px;
+    }
+    td.name-td > div {
+        width: 100%;
+        text-overflow: ellipsis;
+        overflow: hidden;
+        white-space: nowrap;
+        padding: 0px 4px;
+    }
+    td.name-td > div:nth-of-type(1) {
+        display: none;
+    }
+}

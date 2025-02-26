@@ -1,0 +1,19 @@
+.icon {
+  /* visibility: hidden; */
+  display:none;
+}
+
+.listItem:hover .icon {
+  /* visibility: visible; */
+  display: block;
+}
+
+.listItem:hover .dateTime {
+  /* visibility: visible; */
+  display: none;
+}
+
+.dateTime:hover {
+  display: none;
+}
+  

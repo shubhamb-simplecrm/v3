@@ -1,0 +1,14 @@
+.icon {
+  visibility: hidden;
+}
+.mobile-icon {
+  visibility: visible;
+}
+
+.listItem:hover .icon {
+  visibility: visible;
+}
+/* .listItem:hover {
+  background-color: rgb(245,245,245)
+} */
+  
